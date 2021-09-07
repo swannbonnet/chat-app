@@ -1,0 +1,31 @@
+.form_container{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.input_message{
+    padding: 5px;
+    border:solid;
+    border-color: #EBEDEF;
+    border-width: 1px;
+}
+.input_message:focus{
+    outline: none;
+}
+
+.btn_send{
+    padding: 5px;
+    border:none;
+    background-color: transparent;
+    color: #3498DB;
+    background-color: #EBEDEF;
+}
+.btn_send:hover{
+    color: #FFFFFF;
+    background-color: #3498DB;
+}

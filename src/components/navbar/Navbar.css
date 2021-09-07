@@ -1,0 +1,25 @@
+.navbar_container{
+    padding: 20px;
+    background-color: #EBEDEF;
+}
+
+.welcome_block, .title_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #111111;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:#111111;
+}
+.btn:hover{
+    color: #E74C3C;
+}

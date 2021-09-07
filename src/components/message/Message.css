@@ -1,0 +1,37 @@
+.message_container{
+    display: flex;
+    padding:10px;
+}
+.message_user_container{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+}
+
+
+.message{
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    background-color: #3498DB;
+}
+.message__user{
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    background-color: #EBEDEF;
+}
+
+.username_container{
+    font-weight: 600;
+}
